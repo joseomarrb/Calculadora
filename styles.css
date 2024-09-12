@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://concepto.de/wp-content/uploads/2013/08/geometria-e1551991013554.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 470px;
+    height: 70vh;
+    display: grid;
+    background-color: #f05;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 5px;
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 8px 5px 20px #0009;
+}
+
+#pantalla{
+    grid-column: 1/-1 ;
+    place-content: center;
+    padding: 0 18px;
+    border: none;
+    text-align: right;
+    outline: none;
+    border-radius: 8px;
+    font-size: 48px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#ac{
+    background-color: rgb(67, 246, 106);
+}
+
+.btn-blue{
+    background-color: rgb(5, 224, 244);
+}
+.btn{
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition-duration: .1s;    
+}
+
+.btn:hover{
+    background-color: #f000;
+}
